@@ -1,0 +1,44 @@
+
+> beautystore-hibrida@1.0.0 test
+> node --test tests/*.test.mjs
+
+TAP version 13
+# Subtest: API REST responde GET, POST, PUT y DELETE
+ok 1 - API REST responde GET, POST, PUT y DELETE
+  ---
+  duration_ms: 54.186734
+  type: 'test'
+  ...
+# Subtest: productos originales migrados con sus precios
+ok 2 - productos originales migrados con sus precios
+  ---
+  duration_ms: 1.305146
+  type: 'test'
+  ...
+# Subtest: agrega productos al carrito y acumula cantidades
+ok 3 - agrega productos al carrito y acumula cantidades
+  ---
+  duration_ms: 1.285887
+  type: 'test'
+  ...
+# Subtest: disminuye y elimina cuando cantidad llega a cero
+ok 4 - disminuye y elimina cuando cantidad llega a cero
+  ---
+  duration_ms: 0.262987
+  type: 'test'
+  ...
+# Subtest: normaliza producto sin URL insegura
+ok 5 - normaliza producto sin URL insegura
+  ---
+  duration_ms: 0.311758
+  type: 'test'
+  ...
+1..5
+# tests 5
+# suites 0
+# pass 5
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 215.86707

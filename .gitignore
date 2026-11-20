@@ -1,0 +1,40 @@
+
+# Dependencias
+node_modules/
+
+# Archivos generados por Vite
+dist/
+
+# Variables de entorno
+.env
+.env.*
+!.env.example
+
+# Archivos temporales
+.DS_Store
+*.log
+
+# Datos locales de la API
+server/local-products.json
+
+# Archivos generados de Android
+android/.gradle/
+android/.idea/
+android/build/
+android/app/build/
+android/local.properties
+android/.cxx/
+android/captures/
+
+# Archivos generados de iOS
+ios/Pods/
+ios/**/build/
+ios/**/DerivedData/
+ios/**/xcuserdata/
+
+# Firmas y credenciales privadas
+*.keystore
+*.jks
+*.p12
+*.pem
+*.key
